@@ -1,0 +1,22 @@
+{
+  "name": "blazer-bolt",
+  "version": "1.0.0",
+  "description": "Utilize this program to efficiently establish a streamlined structure for launching an express program",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sadegh-AT/blazer-bolt.git"
+  },
+  "author": "SadeghAT",
+  "license": "ISC",
+  "bin": {
+    "blazer":"./index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/Sadegh-AT/blazer-bolt/issues"
+  },
+  "homepage": "https://github.com/Sadegh-AT/blazer-bolt#readme"
+}

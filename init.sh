@@ -2,9 +2,6 @@
 
 # Create files in the current directory
 
-# Run npm init and accept all default values
-npm init -y
-
 # Install express package
 npm install bcrypt cookie-parser cors dotenv express http-errors jsonwebtoken mongoose morgan nodemon
 

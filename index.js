@@ -17,9 +17,7 @@ switch (command) {
     console.log('Command not recognized. Use "help" for usage instructions.');
     break;
 }
-function getAccess() {
-  exec("chmod -x");
-}
+
 function runBash() {
   exec("echo dwadwa", (error, stdout, stderr) => {
     if (error) console.log(error.message);
