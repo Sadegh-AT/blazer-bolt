@@ -19,7 +19,7 @@ switch (command) {
 }
 
 function runBash() {
-  exec("echo dwadwa", (error, stdout, stderr) => {
+  exec("init.sh", (error, stdout, stderr) => {
     if (error) console.log(error.message);
     if (stderr) console.log(stderr);
     console.log(stdout);
