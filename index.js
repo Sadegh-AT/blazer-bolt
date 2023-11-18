@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 const { execFile, exec } = require("child_process");
-
+const path = require("path");
 // Check for the command
 const command = process.argv[2];
 
@@ -19,7 +19,8 @@ switch (command) {
 }
 
 function runBash() {
-  exec("init.sh", (error, stdout, stderr) => {
+  const address = path.join(__dirname, "init.sh");
+  exec(`${address}`, (error, stdout, stderr) => {
     if (error) console.log(error.message);
     if (stderr) console.log(stderr);
     console.log(stdout);

@@ -177,7 +177,7 @@ sleep 0.1
 mkdir -p app/router
 
 # Write the code into routes.js in the "router" folder
-cat <<EOT > app/router/routes.js
+cat <<EOT > app/routers/routes.js
 const router = require("express").Router();
 
 
