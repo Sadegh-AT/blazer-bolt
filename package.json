@@ -1,6 +1,6 @@
 {
   "name": "blazer-bolt",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Utilize this program to efficiently establish a streamlined structure for launching an express program",
   "main": "index.js",
   "scripts": {
