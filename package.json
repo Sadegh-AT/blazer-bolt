@@ -1,5 +1,5 @@
 {
-  "name": "@Sadegh-AT/blazer-bolt",
+  "name": "@sadegh.at/blazer-bolt",
   "version": "1.1.3",
   "description": "Utilize this program to efficiently establish a streamlined structure for launching an express program",
   "main": "index.js",
