@@ -1,15 +1,19 @@
 const axios = require("axios");
-
+const { Octokit, App } = require("octokit");
+const octokit = new Octokit({
+  auth: process.env.TOKEN,
+});
 async function getFileData(filename) {
   require("dotenv").config();
 
-  const repo = process.env.REPO;
-
-  const res = await axios.get(`${repo}${filename}`, {
-    headers: {
-      Authorization: "Bearer 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",
-    },
-  });
+  const res = await octokit.request(
+    `GET /repos/{owner}/{repo}/contents/{path}`,
+    {
+      owner: "Sadegh-AT",
+      repo: "blazer-bolt",
+      path: `files/${filename}`,
+    }
+  );
   const content = Buffer.from(res.data.content, "base64").toString();
   return content;
 }
