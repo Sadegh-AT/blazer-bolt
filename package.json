@@ -13,10 +13,14 @@
   "author": "SadeghAT",
   "license": "ISC",
   "bin": {
-    "blazer":"./index.js"
+    "blazer": "./index.js"
   },
   "bugs": {
     "url": "https://github.com/Sadegh-AT/blazer-bolt/issues"
   },
-  "homepage": "https://github.com/Sadegh-AT/blazer-bolt#readme"
+  "homepage": "https://github.com/Sadegh-AT/blazer-bolt#readme",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "dotenv": "^16.4.3"
+  }
 }
