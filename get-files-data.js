@@ -1,5 +1,4 @@
-const axios = require("axios");
-const { Octokit, App } = require("octokit");
+const { Octokit } = require("octokit");
 const octokit = new Octokit({
   auth: process.env.TOKEN,
 });

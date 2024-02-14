@@ -52,4 +52,7 @@ async function writeCode() {
 async function init() {
   await runBash();
   await writeCode();
+  console.log(
+    "please install these packages: bcrypt cookie-parser cors dotenv express http-errors jsonwebtoken mongoose morgan nodemon"
+  );
 }

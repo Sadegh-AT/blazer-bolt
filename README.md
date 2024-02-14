@@ -1,16 +1,16 @@
-# Blazer Bolt
+# 🚀 Blazer Bolt 🚀
 
-Utilize this program to efficiently establish a streamlined structure for launching an express program
+Harness the power of this program to effortlessly establish a sleek structure for launching your express program
 
-## Usage
+## 🛠️ Usage
 
-To initiate the creation of a structured setup, begin by executing the following command in your terminal:
+To kickstart the creation of a structured setup, simply execute the following command in your terminal:
 
 ```bash
-  npx blazer-bolt init
+  npx blazer init
 ```
 
-After a brief moment, directories and files will be generated within your specified directory
+After a moment, watch as directories and files magically materialize within your specified directory:
 
 ```plaintext
 my-app/
@@ -38,6 +38,6 @@ my-app/
 
 ```
 
-## Authors
+## 🖋️ Authors
 
 - [@SadeghAT](https://github.com/Sadegh-AT)

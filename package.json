@@ -1,7 +1,7 @@
 {
   "name": "blazer-bolt",
-  "version": "1.1.4",
-  "description": "Utilize this program to efficiently establish a streamlined structure for launching an express program",
+  "version": "1.1.5",
+  "description": "Use this program to quickly set up a neat structure for starting an express project.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -20,7 +20,6 @@
   },
   "homepage": "https://github.com/Sadegh-AT/blazer-bolt#readme",
   "dependencies": {
-    "axios": "^1.6.7",
     "dotenv": "^16.4.3",
     "octokit": "^3.1.2"
   }
