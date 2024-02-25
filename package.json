@@ -1,6 +1,6 @@
 {
   "name": "blazer-bolt",
-  "version": "1.1.8",
+  "version": "1.1.9",
   "description": "Use this program to quickly set up a neat structure for starting an express project.",
   "main": "index.js",
   "scripts": {
