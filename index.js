@@ -31,7 +31,7 @@ switch (command) {
 }
 
 async function runBash() {
-  const address = path.join(__dirname, "file-crateor.sh");
+  const address = path.join(process.cwd(), "file-crateor.sh");
   await exec(`${address}`, (error, stdout, stderr) => {
     if (error) console.log(error.message);
     if (stderr) console.log(stderr);
