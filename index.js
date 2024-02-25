@@ -3,13 +3,13 @@ const { execFile, exec } = require("child_process");
 
 const path = require("path");
 const fs = require("fs");
-const { getFileData } = require("./get-files-data");
+const { getFileData } = require(path.join(__dirname, "get-files-data"));
 
 const filesName = {
-  "error-handler.js": "app/utils/error-handler.js",
-  "mongoose-connection.js": "app/utils/mongoose-connection.js",
-  "server.js": "app/server.js",
-  "routes.js": "app/routers/routes.js",
+  "error-handler.js": path.join("app", "utils", "error-handler.js"),
+  "mongoose-connection.js": path.join("app", "utils", "mongoose-connection.js"),
+  "server.js": path.join("app", "server.js"),
+  "routes.js": path.join("app", "routers", "routes.js"),
   "index.js": "index.js",
 };
 
